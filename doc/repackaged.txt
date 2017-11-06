@@ -1,0 +1,139 @@
+== Repackaged or Ported Libraries
+
+Most of the libraries available in this collection have been repackaged or
+ported from earlier versions of Scheme, or Lisp, to work under R7RS Scheme
+implementations.  Modifications have been kept to a minimum to make the code
+work.  Test scripts and examples are available for some parts of these
+libraries and may be examined for ideas on how each library works. 
+
+This chapter provides an overview of these repackaged collections: some of 
+these have links to their own detailed documentation.  
+
+include::autodiff.txt[]
+
+=== Natural Language Tool Kit: +(import (nltk NNNN))+
+
+indexterm:[nltk]
+A repackaging of libraries from the Natural Language ToolKit: https://sourceforge.net/projects/snltk/[]
+
+*    dfsa
+*    lang-en
+*    lang-hr
+*    n-grams
+*    sequence
+*    vectorspace
+
+(Not the +cgi+ package, as the necessary support libraries are not present.)
+
+These libraries support natural-language processing tasks, such as dividing text into n-grams, analysing or 
+displaying the n-grams, and working with a deterministic finite-state automaton.
+
+Some tests and examples are provided, but otherwise this collection needs documenting.
+
+https://www.researchgate.net/publication/248392618_The_Scheme_Natural_Language_Toolkit_SNLTK_NLP_libraries_for_R6RS_and_Racket[SNLTK] 
+publication from European Lisp Symposium, 2011.
+
+=== Purely Functional Data Structures: +(import (pfds NNNN))+
+
+indexterm:[pfds]
+A repackaging of _Purely Functional Data Structures_, originally written for R6RS Scheme: https://github.com/ijp/pfds[]
+
+These data structures implement algorithms from a variety of sources (see the README at above link).
+
+*    bounded-balance-tree
+*    deque
+*    difference-list
+*    fector: Functional Vectors, from https://github.com/ijp/fectors[]
+*    fingertree
+*    hash-array-mapped-trie
+*    heap
+*    priority-search-queue
+*    queue
+*    sequence
+*    set
+
+And, to support implementation:
+
+*    alist
+*    bitwise
+*    lazy-list
+*    list-helpers
+*    vector
+
+Some tests and examples are provided, but otherwise this collection needs documenting.
+
+=== R6RS: +(import (r6rs NNNN))+
+
+indexterm:[r6rs]
+As many of the libraries have been ported from R6RS implementations, they depend on some 
+R6RS functionalities - particularly fixnum arithmetic and bytevectors.  Some of these 
+have been taken from http://snow-fort.org[] in support of the repackaging (particularly for Weinholt).
+
+=== Rebottled
+
+indexterm:[rebottled]
+Some libraries ported from older Scheme versions or Common Lisp: these libraries are individual 
+or very few files.
+
+include::rebottled-pdf.txt[]
+
+==== JSON
+
+indexterm:[json]  A collection of JSON utilities provided by Takashi Kato for R6RS.  
+See https://github.com/ktakashi/json-tools[] for more details and documentation.
+
+Four packages:
+
+* +(import (rebottled json))+
+* +(import (rebottled json-parser))+
+* +(import (rebottled json-select))+
+* +(import (rebottled json-tools))+
+
+==== Packrat: +(import (rebottled packrat))+
+
+indexterm:[packrat]
+Packrat parser library by Tony Garnock-Jones. 
+
+* Documentation: http://tech.labs.oliverwyman.com/downloads/dev.lshift.net/tonyg/packrat.pdf[]
+* General Information: http://bford.info/packrat/[]
+
+==== Portable Regular Expressions: +(import (rebottled pregexp))+
+
+indexterm:[pregexp]
+Written by Dorai Sitaram, this library is documented at:
+http://ds26gte.github.io/pregexp/index.html[]
+
+==== Quaternions: +(import (rebottled quaternions))+
+
+indexterm:[quaternions]
+Written by Dorai Sitaram, this library is documented at:
+http://www.ccs.neu.edu/home/dorai/squat/squat.html[]
+
+The quaternions library extends the Scheme numeric tower. 
+
+==== Schelog: +(import (rebottled schelog))+
+
+indexterm:[schelog]
+Written by Dorai Sitaram, this library is documented at:
+https://ds26gte.github.io/schelog/index.html[]
+
+=== SRFI: +(import (srfi NN))+
+
+indexterm:[srfi] The +r7rs-libs+ include some SRFIs required by this 
+collection for those implementations which do not otherwise provide them.  
+
+For documentation on the SRFIs, see http://srfi.schemers.org/final-srfis.html[]
+
+=== Weinholt Industria: +(import (weinholt NNNN))+
+
+indexterm:[weinholt]
+This collection is only partially repackaged for R7RS Scheme, as some of the code requires 
+support from the implementation (such as for the networking) or use of syntax case.  
+The implemented portion contains a collection of algorithms for working with (some) compression 
+algorithms and performing cryptography.  
+
+Documentation is available at: https://weinholt.se/industria/manual/[]
+
+See https://github.com/petercrlane/r7rs-libs[] for information on which libraries are currently available.
+
+
