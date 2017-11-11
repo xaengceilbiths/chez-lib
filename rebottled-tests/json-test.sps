@@ -19,7 +19,7 @@
 (test-begin "rebottled-json")
 
 (for-each (lambda (res-val)
-            #;(test-write (car res-val) (cdr res-val))
+            (test-write (car res-val) (cdr res-val))
             (test-read (cdr res-val) (car res-val)))
           (list ; Scheme value -> JSON string
             (cons 3 "3") 

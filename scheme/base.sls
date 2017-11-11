@@ -41,8 +41,8 @@ write-bytevector write-char write-partial-bytevector write-u8 zero?
 
 exact boolean=? symbol=? inexact identifier-syntax assert
    )
-         (import (r7b-impl base)
-		 (only (chezscheme) exact boolean=? symbol=? inexact identifier-syntax assert))
+         (import (except (r7b-impl base) current-error-port current-input-port current-output-port)
+		 (only (chezscheme) exact boolean=? symbol=? inexact identifier-syntax assert current-error-port current-input-port current-output-port))
 	 )
 
 #;
