@@ -60,7 +60,7 @@
 ;;; (re)defined in your system.
 ;;;
 
-(define-library
+(library
   (slib wt-tree)
   (export make-wt-tree-type
           number-wt-type

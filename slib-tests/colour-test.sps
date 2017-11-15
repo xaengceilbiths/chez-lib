@@ -6,7 +6,7 @@
         (slib nbs-iscc)
         (slib resene)
         (slib saturate)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-nbs-iscc")
 

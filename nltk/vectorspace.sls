@@ -35,7 +35,7 @@
 ;   ( 1 3 ) )
 
 
-(define-library
+(library
  (nltk vectorspace)
  (export make-vs
          vs?

@@ -17,7 +17,7 @@
 (import (scheme base)
         (scheme case-lambda)
         (pfds fector)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "pfds-fector")
 

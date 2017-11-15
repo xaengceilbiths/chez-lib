@@ -26,7 +26,7 @@
 ;; CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ;; SOFTWARE.
 
-(define-library (srfi 64 testing)
+(library (srfi 64 testing)
 
   (export 
    test-begin ;; must be listed first, since in Kawa (at least) it is "magic".
@@ -76,7 +76,7 @@
   (include "64.body.scm"))
 
 
-(define-library (srfi 64)
+(library (srfi 64)
 
   (export 
    test-begin ;; must be listed first, since in Kawa (at least) it is "magic".

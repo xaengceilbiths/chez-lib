@@ -5,7 +5,7 @@
 (import (scheme base) 
         (pfds hash-array-mapped-trie)
         (only (scheme list) fold iota)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils)
         (only (scheme comparator) string-hash)
         (scheme sort))

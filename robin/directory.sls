@@ -32,7 +32,7 @@
 ;; -- check works on Windows
 ;; -- other Linux versions?
 
-(define-library
+(library
   (robin directory)
   (export change-directory 
           current-directory

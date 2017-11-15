@@ -1,5 +1,5 @@
 #!chezscheme
-(import (scheme base) (srfi 151) (srfi 64))
+(import (scheme base) (srfi 151) (surfage s64 testing))
 (test-begin "bitwise")
 
 (test-group "bitwise"

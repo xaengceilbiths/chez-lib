@@ -20,7 +20,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib tzfile)
   (export tzfile:read)
   (import (scheme base)

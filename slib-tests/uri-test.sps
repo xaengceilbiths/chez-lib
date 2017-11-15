@@ -3,7 +3,7 @@
 
 (import (scheme base)       (scheme write)
         (slib uri)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-uri")
 

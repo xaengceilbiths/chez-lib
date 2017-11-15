@@ -32,7 +32,7 @@
         (slib wt-tree)
         (scheme list)
         (srfi 27)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme sort))
 
 (define number-of-tests 300)

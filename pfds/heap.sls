@@ -13,7 +13,7 @@
 
 ;; ----------------------------------------------------------------------
 
-(define-library 
+(library 
   (pfds heap)
   (export make-heap
           heap

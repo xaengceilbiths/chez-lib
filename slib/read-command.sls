@@ -26,7 +26,7 @@
 ;;; Albert L. Ting points out that a similar process can be used for
 ;;; reading files of options -- therefore READ-OPTIONS-FILE.
 
-(define-library
+(library
   (slib read-command)
   (export read-command
           read-options-file)

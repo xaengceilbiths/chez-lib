@@ -30,7 +30,7 @@
 ;;character sets.  These functions abstract the notion of a @dfn{byte}.
 ;;@cindex byte
 
-(define-library
+(library
   (slib byte)
   (export byte-ref
           byte-set!

@@ -21,7 +21,7 @@
 
 ;; A small selection packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib common-list-functions)
   (export adjoin
           fold-left

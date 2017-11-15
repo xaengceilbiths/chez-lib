@@ -1,5 +1,5 @@
 #!chezscheme
-(define-library 
+(library 
   (srfi 151) 
   (export bitwise-not bitwise-and bitwise-ior bitwise-xor bitwise-eqv
           bitwise-nand bitwise-nor bitwise-andc1 bitwise-andc2

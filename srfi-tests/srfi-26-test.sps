@@ -13,7 +13,7 @@
 
 (import (scheme base)
         (srfi 26)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "srfi-26-cut")
 

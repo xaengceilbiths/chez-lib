@@ -52,7 +52,7 @@
 ;;      ==> (816.4965933140557e-3 . -6.088662107903635)
 ;;@end example
 
-(define-library
+(library
   (slib minimize)
   (export golden-section-search)
   (import (scheme base)

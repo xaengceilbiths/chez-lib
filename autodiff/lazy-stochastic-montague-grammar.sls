@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff lazy-stochastic-montague-grammar)
  (export generate understand)
  (import (scheme base)

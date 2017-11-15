@@ -4,7 +4,7 @@
 
 (import (except (scheme base) + - * / expt square = < > <= >= zero? positive? negative? real?)
         (autodiff AD)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "autodiff-AD")

@@ -5,7 +5,7 @@
         (scheme case-lambda)
         (scheme inexact)
         (robin series)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "robin-series")

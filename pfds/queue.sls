@@ -20,7 +20,7 @@
 ;; A scheme translation of "Simple and Efficient Purely Functional
 ;; Queues and Deques" by Chris Okazaki
 ;;
-(define-library 
+(library 
   (pfds queue)
   (export make-queue
           queue?

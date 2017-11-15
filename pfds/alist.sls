@@ -13,7 +13,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library 
+(library 
   (pfds alist)
   (export alist-ref
           alist-set

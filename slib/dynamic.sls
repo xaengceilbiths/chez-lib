@@ -6,7 +6,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib dynamic)
   (export make-dynamic
           dynamic?

@@ -40,7 +40,7 @@
 
 ;;; Code:
 
-(define-library 
+(library 
   (weinholt sliding-buffer)
   (export make-sliding-buffer
           sliding-buffer?

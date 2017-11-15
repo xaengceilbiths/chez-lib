@@ -2,7 +2,7 @@
 ;; Trivial implementation of Ephemerons
 ;; -- needs replacing with implementation-specific version
 
-(define-library
+(library
   (scheme ephemeron)
   (export make-ephemeron
           ephemeron?

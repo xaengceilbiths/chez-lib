@@ -2,7 +2,7 @@
 ;; SRFI 27 Random Bits
 ;; implementation for Kawa, based around java.util.Random
 
-(define-library 
+(library 
   (srfi 27)
   (export random-integer
           random-real

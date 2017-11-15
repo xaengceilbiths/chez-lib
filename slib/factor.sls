@@ -24,7 +24,7 @@
 ;; 1. Replaced use of slib's random with srfi 27
 ;; 2. Replaced (slib byte) with bytevector
 
-(define-library
+(library
   (slib factor)
   (export jacobi-symbol
           prime:trials

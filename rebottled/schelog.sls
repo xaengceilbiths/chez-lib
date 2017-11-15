@@ -15,7 +15,7 @@
 ;notice is included in the copy.  This work is provided
 ;as is, with no warranty of any kind.
 
-(define-library
+(library
   (rebottled schelog)
   (export 
     %true

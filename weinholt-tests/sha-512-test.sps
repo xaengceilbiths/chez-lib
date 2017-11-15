@@ -24,7 +24,7 @@
 (import (scheme base)
         (scheme char)
         (weinholt sha-2)
-        (srfi 64)
+        (surfage s64 testing)
         )
 
 (test-begin "weinholt-sha-512")

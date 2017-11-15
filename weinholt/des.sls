@@ -31,7 +31,7 @@
 ;; use the One True order (lowest bit is bit zero). Or maybe I'm just
 ;; doing it wrong... :)
 
-(define-library 
+(library 
   (weinholt des)
   (export des-key-bad-parity? des! permute-key des-crypt
           tdea-permute-key tdea-encipher! tdea-decipher!

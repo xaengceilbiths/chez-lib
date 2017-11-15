@@ -23,7 +23,7 @@
 
 ;; Read bits from binary input ports.
 
-(define-library 
+(library 
   (weinholt bitstream)
   (export make-bit-reader
           get-bits lookahead-bits align-bit-reader

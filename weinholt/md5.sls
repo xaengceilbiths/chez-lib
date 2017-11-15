@@ -23,7 +23,7 @@
 
 ;; The MD5 Message-Digest Algorithm. RFC 1321
 
-(define-library 
+(library 
   (weinholt md5)
   (export make-md5 md5-update! md5-finish! md5-clear!
           md5 md5-copy md5-finish

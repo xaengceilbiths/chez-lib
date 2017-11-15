@@ -24,7 +24,7 @@
 ;;; error in let* and so also in and-let*.  In fact let* allows rebinding the
 ;;; same variable, so we also allow it here.
 
-(define-library 
+(library 
   (srfi 2)
   (export and-let*)
   (import (scheme base))

@@ -1,7 +1,7 @@
 #!chezscheme
 (import (scheme base)
         (slib topological-sort)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-topological-sort")
 

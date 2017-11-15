@@ -8,7 +8,7 @@
         (slib posix-time)
         (slib time-core)
         (slib time-zone)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "slib-time")

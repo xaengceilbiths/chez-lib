@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff QobiScheme)
  (export first second third fourth fifth sixth rest last identity broken
 	 list-insert list-remove list-replace but-last sublist fold map-reduce

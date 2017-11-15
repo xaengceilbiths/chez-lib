@@ -29,7 +29,7 @@
 ;;by T. Cormen, C. Leiserson, R. Rivest.
 ;;1989 MIT Press.
 
-(define-library
+(library
   (slib priority-queue)
   (export make-heap
           priority-queue? ; extra export

@@ -22,7 +22,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library 
+(library 
   (weinholt bytevector)
   (export bytevector-append ; from (scheme base)
           bytevector-fill!

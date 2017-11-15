@@ -22,7 +22,7 @@
 
 ;;; No, it doesn't do leap seconds.
 
-(define-library
+(library
   (slib posix-time)
   (export 
     asctime

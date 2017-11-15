@@ -20,7 +20,7 @@
 ;; DEALINGS IN THE SOFTWARE.
 
 (import (weinholt des)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme base)
         (scheme write))
 

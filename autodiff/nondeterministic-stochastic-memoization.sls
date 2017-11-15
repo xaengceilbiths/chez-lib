@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff nondeterministic-stochastic-memoization)
  (export memoize-nondeterministic-stochastic
 	 memoize-nondeterministic-removing-duplicates-stochastic

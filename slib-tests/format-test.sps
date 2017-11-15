@@ -13,7 +13,7 @@
         (scheme write)
         (slib format)
         (slib string-case)
-        (srfi 64))
+        (surfage s64 testing))
 
 (define (test format-args out-str)
   (let ((format-out (apply format `(#f ,@format-args))))

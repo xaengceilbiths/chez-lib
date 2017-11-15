@@ -6,7 +6,7 @@
 ;;; more copyright information.
 ;;; Olin Shivers 11/98.
 
-(define-library
+(library
   (scheme sort)
   (export list-sorted?               vector-sorted?
           list-sort                  vector-sort

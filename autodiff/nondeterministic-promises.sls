@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff nondeterministic-promises)
  (export delayed-a-member-of force-nondeterministic-promise)
  (import (scheme base) 

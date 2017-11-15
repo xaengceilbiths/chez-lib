@@ -1,7 +1,7 @@
 #!chezscheme
 ;; Reference implementation
 
-(define-library
+(library
   (srfi 31)
   (export rec)
   (import (scheme base))

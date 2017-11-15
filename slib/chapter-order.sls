@@ -25,7 +25,7 @@
 ;;; section of the string consists of consecutive numeric or
 ;;; consecutive aphabetic characters.
 
-(define-library
+(library
   (slib chapter-order)
   (export chap:string<?
           chap:string>?

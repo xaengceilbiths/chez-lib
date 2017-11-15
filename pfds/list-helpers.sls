@@ -1,7 +1,7 @@
 #!chezscheme
 ;;; List helpers - extracted from fingertrees.sld
 
-(define-library
+(library
   (pfds list-helpers)
   (export snoc
           take

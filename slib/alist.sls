@@ -31,7 +31,7 @@
 ;;Alist functions can be used with a secondary index method such as hash
 ;;tables for improved performance.
 
-(define-library
+(library
   (slib alist)
   (export predicate->asso
           alist-inquirer

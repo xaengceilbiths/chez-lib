@@ -29,7 +29,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library 
+(library 
   (rebottled json-select)
   (export json:select)
   (import (scheme base)

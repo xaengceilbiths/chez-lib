@@ -1,7 +1,7 @@
 #!chezscheme
 ;; Features from Template, usually defined in init
 
-(define-library
+(library
   (slib common)
   (export 
     add-base-table-implementation

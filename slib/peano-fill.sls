@@ -20,7 +20,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib peano-fill)
   (export natural->peano-coordinates
           peano-coordinates->natural

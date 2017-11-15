@@ -1,7 +1,7 @@
 #!chezscheme
 ;;; SRFI 8 syntax for receiving multiple values
 
-(define-library
+(library
   (srfi 8 )
   (export receive)
   (import (scheme base))

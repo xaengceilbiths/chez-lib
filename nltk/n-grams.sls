@@ -33,7 +33,7 @@
 ;; - 
 
 
-(define-library
+(library
  (nltk n-grams)
  (export filter-ngrams
          filter-ngrams!

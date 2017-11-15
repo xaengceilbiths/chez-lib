@@ -3,7 +3,7 @@
 (import (except (scheme base) equal?)
         (slib determinant)
         (srfi 63)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "slib-determinant")

@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (slib chapter-order)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-chapter-order")
 

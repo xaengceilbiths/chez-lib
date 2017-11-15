@@ -51,7 +51,7 @@
 ;;
 ;; Sat Nov 15 00:15:33 1997  Aubrey Jaffer
 
-(define-library
+(library
   (slib time-zone)
   (export read-tzfile
           time-zone)

@@ -37,7 +37,7 @@
 ;; (adler-32-width)
 ;;     returns the bit-width of the checksum, i.e. 32
 
-(define-library 
+(library 
   (weinholt adler-32)
   (export adler-32 adler-32-init adler-32-update
           adler-32-finish adler-32-width)

@@ -41,7 +41,7 @@
 ;;   @result{} ((old . spice) ((old . shoes) a . cons) (a . cons))
 ;;@end lisp
 
-(define-library
+(library
   (slib tree)
   (export subst
           substq

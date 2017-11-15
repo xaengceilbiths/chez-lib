@@ -28,7 +28,7 @@
 ;; TODO: give an error if more than 2^64 / 2^128 bits are processed?
 ;; TODO: Optimize. Should be simple enough with the help of a profiler.
 
-(define-library 
+(library 
   (weinholt sha-2)
   (export make-sha-224 sha-224-update! sha-224-finish! sha-224-clear!
           sha-224 sha-224-copy sha-224-finish sha-224-length

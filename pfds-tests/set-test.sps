@@ -6,7 +6,7 @@
         (pfds set)
         (only (pfds list-helpers) fold-left)
         (only (scheme list) any every)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils)
         (scheme sort))
 

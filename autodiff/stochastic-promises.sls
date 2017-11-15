@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (autodiff stochastic-promises)
   (export delayed-draw force-stochastic-promise)
   (import (scheme base) 

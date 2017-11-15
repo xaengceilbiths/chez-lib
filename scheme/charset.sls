@@ -14,7 +14,7 @@
 ;;; The MIT Scheme license is a "free software" license. See the end of
 ;;; this file for the tedious details. 
 
-(define-library
+(library
   (scheme charset)
   (export
     char-set? char-set= char-set<=

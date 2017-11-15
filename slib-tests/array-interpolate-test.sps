@@ -2,7 +2,7 @@
 (import (except (scheme base) equal?)
         (slib array-interpolate)
         (srfi 63)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "slib-array-interpolate")

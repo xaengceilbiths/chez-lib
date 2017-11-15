@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff nondeterministic-scheme)
  (export a-boolean fail domain remove-duplicates a-member-of possibly? amb
 	 upon-fail)

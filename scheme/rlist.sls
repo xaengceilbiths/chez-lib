@@ -24,7 +24,7 @@
 
 ;; Packaged for R7RS Scheme RedEdition by Peter Lane, 2017
 
-(define-library
+(library
   (scheme rlist)
   (export rquote 
           rpair? 

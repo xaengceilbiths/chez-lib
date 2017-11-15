@@ -22,7 +22,7 @@
 
 ;; Note: replaced slib:eval with eval - does this work?
 
-(define-library
+(library
   (slib relational-database)
   (export make-relational-system)
   (import (scheme base)

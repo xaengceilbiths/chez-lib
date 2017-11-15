@@ -24,7 +24,7 @@
 
 ;;; Sphere and normal functions corrections from: Harald Hanche-Olsen
 
-(define-library
+(library
   (slib random-inexact)
   (export random:uniform
           random:exp

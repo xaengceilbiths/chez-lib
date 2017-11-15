@@ -22,7 +22,7 @@
 ;;
 ;; Rewritten to use string-ports and not temporary files
 
-(define-library
+(library
   (slib string-port)
   (export call-with-output-string
           call-with-input-string)

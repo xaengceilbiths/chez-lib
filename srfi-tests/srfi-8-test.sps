@@ -3,7 +3,7 @@
 (import (scheme base)
         (scheme list)
         (srfi 8)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "srfi-8-test")
 

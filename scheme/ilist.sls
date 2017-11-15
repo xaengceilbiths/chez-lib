@@ -1,5 +1,5 @@
 #!chezscheme
-(define-library 
+(library 
   (scheme ilist)
   (export iq)
   (export ipair ilist xipair ipair* make-ilist ilist-copy ilist-tabulate iiota)

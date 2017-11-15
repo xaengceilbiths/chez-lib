@@ -1,7 +1,7 @@
 #!chezscheme
 (import (scheme base)
         (rebottled json-parser)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "JSON-parser")
 ;; simple expressions from http://jsonselect.org/#tryit

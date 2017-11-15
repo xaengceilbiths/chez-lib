@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (robin disjoint-set)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme comparator))
 
 (test-begin "robin-disjoint-set")

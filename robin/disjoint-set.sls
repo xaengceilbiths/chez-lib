@@ -62,7 +62,7 @@
 ;;; An error condition is raised if a disjoint set or procedure
 ;;; is not provided as input to a procedure where required.
 
-(define-library
+(library
   (robin disjoint-set)
   (export make-disjoint-set
           disjoint-set?

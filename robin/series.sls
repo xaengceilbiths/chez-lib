@@ -41,7 +41,7 @@
 ;; 5. Error reporting?
 ;; 6. Use Lisp implementation to help program an efficient version (?)
 
-(define-library
+(library
   (robin series)
   (export 
     ; series datatype

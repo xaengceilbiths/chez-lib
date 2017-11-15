@@ -4,7 +4,7 @@
 
 (import (scheme base)
         (pfds heap)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme sort))
 
 (test-begin "pfds-heap")

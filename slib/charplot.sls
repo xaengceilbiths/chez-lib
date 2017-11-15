@@ -22,7 +22,7 @@
 ;;
 ;; Replaced charplot:dimensions variable as a parameter
 
-(define-library
+(library
   (slib charplot)
   (export charplot:dimensions
           plot

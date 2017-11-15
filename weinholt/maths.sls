@@ -21,7 +21,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library 
+(library 
   (weinholt maths)
   (export invmod expt-mod div-mod sqrt-mod)
   (import (except (scheme base) error)

@@ -5,7 +5,7 @@
         (scheme inexact)
         (slib byte)
         (slib byte-number)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "slib-byte-number")

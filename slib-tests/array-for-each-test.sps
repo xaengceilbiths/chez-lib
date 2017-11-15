@@ -3,7 +3,7 @@
         (slib array-for-each)
         (slib determinant)
         (srfi 63)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-array-for-each")
 

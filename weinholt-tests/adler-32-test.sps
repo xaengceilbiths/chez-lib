@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (weinholt adler-32)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "weinholt-adler-32")
 

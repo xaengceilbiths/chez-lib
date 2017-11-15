@@ -1,5 +1,5 @@
 #!chezscheme
-(define-library (r6rs bytevectors)
+(library (r6rs bytevectors)
   (export
    endianness
    native-endianness

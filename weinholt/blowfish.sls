@@ -28,7 +28,7 @@
 ;; Keys can be between 8 and 448 bits. The key length does not affect
 ;; performance. Blocks are 8 bytes.
 
-(define-library 
+(library 
   (weinholt blowfish)
   (export expand-blowfish-key blowfish-encrypt!
           reverse-blowfish-schedule blowfish-decrypt!

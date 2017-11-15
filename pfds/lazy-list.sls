@@ -22,7 +22,7 @@
 
 ;;; Code:
 
-(define-library 
+(library 
   (pfds lazy-list)
   (export cons*
           tail

@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff nondeterministic-recognizer)
  (export make-production a-tree yield phrase1? yield-equal? phrase2?
 	 a-tree-yield-equal? phrase3?)

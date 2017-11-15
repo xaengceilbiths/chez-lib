@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (slib minimize)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "slib-minimize")

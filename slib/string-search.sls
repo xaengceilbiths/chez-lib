@@ -11,7 +11,7 @@
 ;;
 ;; Implementation relies on SRFI-13 where possible (Chibi does not include SRFI-13)
 
-(define-library
+(library
   (slib string-search)
   (export string-index 
           string-index-ci

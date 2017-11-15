@@ -20,7 +20,7 @@
 ;;> Note: For all procedures which take a key as an argument, the key
 ;;> must be comparable with the ordering procedure of the bbtree.
 ;;>
-(define-library 
+(library 
   (pfds bounded-balance-tree)
   (export make-bbtree
           bbtree?

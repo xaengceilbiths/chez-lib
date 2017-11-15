@@ -69,7 +69,7 @@
 ;;program.  If the items being sequenced are words, then it is like the
 ;;lesser known @dfn{spiff} program.
 
-(define-library
+(library
   (slib diff)
   (export diff:longest-common-subsequence
           diff:edits

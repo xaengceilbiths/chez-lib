@@ -2,7 +2,7 @@
 (import (scheme base)
         (rebottled json-select)
         (rebottled json-tools)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "JSON-Select")
 

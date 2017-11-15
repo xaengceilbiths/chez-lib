@@ -6,7 +6,7 @@
         (robin text)
         (robin series)
         (robin srfi64-utils)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "robin-text")
 

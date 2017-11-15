@@ -4,7 +4,7 @@
 
 ;; Written by Peter Lane, 2017
 
-(define-library
+(library
   (rebottled pstk-plotchart)
   (export 
     import-plotchart

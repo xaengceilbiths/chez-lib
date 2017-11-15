@@ -25,7 +25,7 @@
 ;;; TABLE	is an alist of (Primary-key . ROW)
 ;;; ROW		is a list of non-primary VALUEs
 
-(define-library
+(library
   (slib alist-table)
   (export alist-table)
   (import (scheme base)

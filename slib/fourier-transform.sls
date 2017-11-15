@@ -30,7 +30,7 @@
 ;;; Flipped polarity of exponent to agree with
 ;;; http://en.wikipedia.org/wiki/Discrete_Fourier_transform
 
-(define-library
+(library
   (slib fourier-transform)
   (export sft
           sft-1

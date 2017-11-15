@@ -23,7 +23,7 @@
 ;; character strings for information interchanges"
 ;; http://people.csail.mit.edu/jaffer/MIXF
 
-(define-library
+(library
   (slib metric-units)
   (export si:conversion-factor
           SI:conversion-factor)

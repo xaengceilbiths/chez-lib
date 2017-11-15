@@ -4,7 +4,7 @@
         (scheme read)
         (scheme write)
         (slib string-port)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-string-port")
 

@@ -89,7 +89,7 @@
 ;;
 
 ;;
-(define-library 
+(library 
   (pfds fingertree)
   (export fingertree?
           fingertree-empty?

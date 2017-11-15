@@ -5,7 +5,7 @@
 (import (scheme base)
         (pfds priority-search-queue)
         (only (scheme list) fold filter)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme sort))
 
 (define (alist->psq alist key<? priority<?)

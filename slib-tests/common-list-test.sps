@@ -1,7 +1,7 @@
 #!chezscheme
 (import (scheme base)
         (slib common-list-functions)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-common-list-functions")
 

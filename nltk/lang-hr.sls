@@ -37,7 +37,7 @@
 ;; - sample Context Free Grammar
 ;; - tokenizer
 
-(define-library
+(library
   (nltk lang-hr)
   (export stopwords-list-hr
           stopwords-hash-hr)

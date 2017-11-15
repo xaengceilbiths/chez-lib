@@ -30,7 +30,7 @@
 ;;; OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 ;;; SUCH DAMAGE.
 
-(define-library 
+(library 
   (srfi 141)
   (export ceiling/ ceiling-quotient ceiling-remainder
           ;floor/ floor-quotient floor-remainder

@@ -4,7 +4,6 @@
 
 (import (scheme base)
         (rebottled json)
-        #;(srfi 64)
 	(surfage s64 testing))
 
 (define (test-write val res)

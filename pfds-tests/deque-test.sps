@@ -5,7 +5,7 @@
 (import (scheme base)
         (pfds deque)
         (only (scheme list) fold)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "pfds-deque")
 

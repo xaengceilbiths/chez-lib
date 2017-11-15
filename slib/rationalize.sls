@@ -5,7 +5,7 @@
 ;;
 ;; Note: Rationalize is in R7RS
 
-(define-library
+(library
   (slib rationalize)
   (export find-ratio
           find-ratio-between)

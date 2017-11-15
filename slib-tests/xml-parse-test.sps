@@ -6,7 +6,7 @@
         (slib string-port)
         (slib xml-parse)
         (only (scheme list) cons*)
-        (srfi 64))
+        (surfage s64 testing))
 
 (define (string-join strs sep) ;; implemented here to avoid srfi 13 / not dependency
   (if (null? strs)

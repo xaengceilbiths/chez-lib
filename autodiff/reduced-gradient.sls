@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff reduced-gradient)
  (export uniform argmax)
  (import (except (scheme base) + - * / = < > <= >= zero? positive? negative? real? expt)

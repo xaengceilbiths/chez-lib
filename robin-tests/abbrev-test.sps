@@ -4,7 +4,7 @@
 (import (scheme base)
         (robin abbrev)
         (scheme list)
-        (srfi 64))
+        (surfage s64 testing))
 
 (define (equal-assocs? alist1 alist2)
   (define (in-alist? association alist)

@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (srfi 31)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "srfi-31-rec")
 

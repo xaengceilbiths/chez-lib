@@ -22,7 +22,7 @@
 ;;
 ;; Note: make-rectangular and make-polar already require real arguments
 ;;
-(define-library
+(library
   (slib math-real)
   (export real-exp
           real-ln

@@ -26,7 +26,7 @@
 ;;> constant time append to either the front or end of a dlist that may
 ;;> be used instead.
 
-(define-library 
+(library 
   (pfds difference-list)
   (export dlist
           dlist?

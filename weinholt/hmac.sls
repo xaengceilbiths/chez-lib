@@ -23,7 +23,7 @@
 
 ;; RFC 2104, FIPS-198-1.
 
-(define-library 
+(library 
   (weinholt hmac)
   (export make-hmac)
   (import (except (scheme base) bytevector-copy!)

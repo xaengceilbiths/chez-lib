@@ -7,7 +7,7 @@
                 (make-fingertree %make-fingertree)
                 (list->fingertree %list->fingertree))
         (only (pfds list-helpers) fold-left)
-        (srfi 64))
+        (surfage s64 testing))
 
 ;; Right now, I am not testing the monoidal parts of fingertrees, so
 ;; we use constructor that replaces these with arbitrary values

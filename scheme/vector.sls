@@ -76,7 +76,7 @@
 
 ;; All routines in (scheme base) removed from code: Peter Lane, 2017.
 
-(define-library 
+(library 
   (scheme vector)
   (import (scheme base))
   (import (scheme cxr))

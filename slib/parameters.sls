@@ -22,7 +22,7 @@
 
 ;;; Format of arity-spec: (name predicate conversion)
 
-(define-library
+(library
   (slib parameters)
   (export make-parameter-list
           parameter-list-ref

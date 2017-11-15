@@ -12,7 +12,7 @@
 ;;       0           1          2             3              4
 ;; #(object-tag get-method make-method! unmake-method! get-all-methods)
 
-(define-library
+(library
   (slib object)
   (export make-object
           object?

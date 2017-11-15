@@ -15,7 +15,7 @@
 
 ;; -------------------------------------------------------------------
 
-(define-library 
+(library 
   (pfds deque)
   (export make-deque
           deque?

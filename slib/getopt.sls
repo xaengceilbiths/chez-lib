@@ -22,7 +22,7 @@
 ;;
 ;; Parameters exported for option-index/option-arg/option-name
 
-(define-library
+(library
   (slib getopt)
   (export getopt
           getopt--

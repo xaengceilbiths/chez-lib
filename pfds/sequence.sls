@@ -22,7 +22,7 @@
 ;; removal from both ends, and random-access. Like other Scheme
 ;; collections, sequences are zero-indexed.
 ;;
-(define-library 
+(library 
   (pfds sequence)
   (export make-sequence
           sequence?

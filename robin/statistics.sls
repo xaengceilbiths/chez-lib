@@ -29,7 +29,7 @@
 ;; LIABILITY, WHETHER IN ACTION OF CONTRACT, TORT, OR OTHERWISE ARISING FROM, OUT
 ;; OF, OR IN CONNECTION WITH THE WORK OR THE USE OF OR OTHER DEALINGS IN THE WORK.
 
-(define-library
+(library
   (robin statistics)
   (export mean
           arithmetic-geometric-mean

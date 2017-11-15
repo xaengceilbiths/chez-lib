@@ -19,7 +19,7 @@
 
 (import (scheme base)
         (rebottled pregexp)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "rebottled-pregexp")
 

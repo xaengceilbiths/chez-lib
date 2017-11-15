@@ -23,7 +23,7 @@
 ;; Added pathname->dirname as a new function to replace pathname->vicinity
 ;; -- this removes the need for SRFI 59
 
-(define-library
+(library
   (slib directory)
   (export current-directory
           directory-for-each

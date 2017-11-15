@@ -2,7 +2,7 @@
 
 (import (except (scheme base) quotient remainder modulo)
         (slib math-integer)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-math-integer")
 

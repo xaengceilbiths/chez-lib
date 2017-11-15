@@ -26,7 +26,7 @@
 ;; to be compatible with the relevant ordering procedures on the psq.
 ;;
 ;;
-(define-library 
+(library 
   (pfds priority-search-queue)
   (export make-psq
           psq?

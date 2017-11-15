@@ -37,7 +37,7 @@
 ;; It provides amortized O(1) basic operations.
 ;; Originally written for Gauche, and ported to R7RS.
 
-(define-library 
+(library 
   (scheme ideque)
   (export ideque ideque-tabulate ideque-unfold ideque-unfold-right 
           ideque? ideque-empty? ideque= ideque-any ideque-every

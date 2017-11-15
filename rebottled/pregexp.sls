@@ -17,7 +17,7 @@
 
 ;;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (rebottled pregexp)
   (export pregexp
           pregexp-match-positions

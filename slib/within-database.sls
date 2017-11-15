@@ -38,7 +38,7 @@
 
 ;;; Code:
 
-(define-library
+(library
   (slib within-database)
   (export within-database
           ; add-macro-support ;; no macros currently implement for R7RS Scheme

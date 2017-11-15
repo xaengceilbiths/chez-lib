@@ -13,7 +13,7 @@
 ; CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
 ; THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-(define-library 
+(library 
   (scheme stream)
 
   (export stream-null stream-cons stream? stream-null? stream-pair? stream-car

@@ -6,7 +6,7 @@
         (scheme char)
         (robin statistics)
         (scheme list)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils))
 
 (test-begin "robin-statistics")

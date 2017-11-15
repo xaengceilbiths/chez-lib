@@ -4,7 +4,7 @@
 ;; Packaged for R7RS Scheme 
 ;; Rewrote :-dispatch as a parameter, so Larceny happy with export
 
-(define-library 
+(library 
   (srfi 42)
   (export
     :

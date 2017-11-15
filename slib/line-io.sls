@@ -22,7 +22,7 @@
 ;;
 ;; read-line in R7RS base library
 
-(define-library
+(library
   (slib line-io)
   (export read-line!
           write-line

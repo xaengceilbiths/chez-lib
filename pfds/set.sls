@@ -15,7 +15,7 @@
 
 ;; -------------------------------------------------------------------
 
-(define-library 
+(library 
   (pfds set)
   (export set?
           make-set

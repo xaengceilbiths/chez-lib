@@ -24,7 +24,7 @@
 
 ;;; No, it doesn't do leap seconds.
 
-(define-library
+(library
   (slib time-core)
   (export current-time 
           difftime 

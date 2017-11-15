@@ -20,7 +20,7 @@
 ;; DEALINGS IN THE SOFTWARE.
 
 (import (weinholt blowfish)
-        (srfi 64)
+        (surfage s64 testing)
         (except (scheme base) bytevector-copy!)
         (r6rs bytevectors))
 

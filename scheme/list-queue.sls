@@ -1,6 +1,6 @@
 #!chezscheme
 
-(define-library
+(library
   (scheme list-queue)
   (import (scheme base) 
           (scheme case-lambda)

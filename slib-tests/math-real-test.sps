@@ -3,7 +3,7 @@
 (import (except (scheme base) abs)
         (scheme complex)
         (slib math-real)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-math-real")
 

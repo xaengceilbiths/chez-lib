@@ -32,7 +32,7 @@
 ;;      the unnexxesary subtrees are still present!
 ;;
 
-(define-library
+(library
  (nltk dfsa)
  (export reverse-transitions ; !
          state-symbol ; !

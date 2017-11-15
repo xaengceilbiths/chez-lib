@@ -14,7 +14,7 @@
 ;; 2. SRFI 13 contains string-titlecase, equivalent to string-capitalize
 ;;    so use if present to define string-capitalize
 
-(define-library
+(library
   (slib string-case)
   (export string-capitalize
           string-capitalize!

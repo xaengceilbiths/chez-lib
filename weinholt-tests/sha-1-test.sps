@@ -24,7 +24,7 @@
 (import (scheme base)
         (scheme char)
         (only (scheme list) iota)
-        (srfi 64)
+        (surfage s64 testing)
         (weinholt bytevector)
         (weinholt sha-1))
 

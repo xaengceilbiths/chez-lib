@@ -32,7 +32,7 @@
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
 
-(define-library 
+(library 
   (rebottled json-parser)
   (export json:parse-selector)
   (import (scheme base) 

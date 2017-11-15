@@ -24,7 +24,7 @@
 
 ;; Repackaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (srfi 63)
   (export array?
           equal?

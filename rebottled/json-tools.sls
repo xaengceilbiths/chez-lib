@@ -45,7 +45,7 @@
 ;; string       => string
 ;; number       => number
 
-(define-library 
+(library 
   (rebottled json-tools)
     (export <json:nodeset>
 	    json:nodeset?

@@ -2,7 +2,7 @@
 
 (import (scheme base)
         (slib soundex)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-soundex")
 

@@ -23,7 +23,7 @@
 
 ;; Helpers for Diffie-Hellman key exchange
 
-(define-library 
+(library 
   (weinholt dh)
   (export make-dh-secret
           expt-mod

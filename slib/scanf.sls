@@ -26,7 +26,7 @@
 ;; Packaged for R7Rs Scheme by Peter Lane, 2017
 ;; (Note: broke apart stdio:scan-and-set to avoid Kawa 2.3 problem; problem fixed in later version.)
 
-(define-library
+(library
   (slib scanf)
   (export scanf-read-list
           scanf-read-values)

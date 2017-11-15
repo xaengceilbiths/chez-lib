@@ -25,7 +25,7 @@
 
 ;; This hasn't been tested with LZMA1 streams.
 
-(define-library 
+(library 
   (weinholt lzma)
   (export lzma-decode-chunk)
   (import (scheme base)

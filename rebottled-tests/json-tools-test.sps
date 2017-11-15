@@ -2,7 +2,7 @@
 (import (scheme base)               
         (scheme cxr)
         (rebottled json-tools)
-	(srfi 64))
+	(surfage s64 testing))
 
 (test-begin "JSON-Tools")
 

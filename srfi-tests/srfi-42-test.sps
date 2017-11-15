@@ -39,7 +39,7 @@
         (scheme read)
         (scheme write)
         (srfi 42)
-        (srfi 64))
+        (surfage s64 testing))
 
 (define (my-equal? x y)
   (cond

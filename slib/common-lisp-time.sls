@@ -20,7 +20,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib common-lisp-time)
   (export get-decoded-time
           get-universal-time

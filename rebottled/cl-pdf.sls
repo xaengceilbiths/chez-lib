@@ -50,7 +50,7 @@
 ;; 
 ;; TODO: port-position not available, so removed xref offsets
 
-(define-library
+(library
   (rebottled cl-pdf)
   (export 
     ; all from util

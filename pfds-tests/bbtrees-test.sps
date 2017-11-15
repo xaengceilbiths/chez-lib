@@ -4,7 +4,7 @@
 
 (import (scheme base)
         (pfds bounded-balance-tree)
-        (srfi 64)
+        (surfage s64 testing)
         (robin srfi64-utils)
         (scheme sort))
 

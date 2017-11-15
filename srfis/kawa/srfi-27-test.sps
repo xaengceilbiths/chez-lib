@@ -3,7 +3,7 @@
 (import (scheme base)
         (scheme list)
         (srfi 27)
-        (srfi 64))
+        (surfage s64 testing))
 
 (define (n-ints n)
   (do ((i 0 (+ 1 i))

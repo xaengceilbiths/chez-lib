@@ -54,7 +54,7 @@
 ; MACSYMA Reference Manual, Version Ten,
 ; Laboratory for Computer Science, MIT, 1983
 
-(define-library
+(library
   (slib precedence-parse)
   (export tok:read-char
           prec:nofix 

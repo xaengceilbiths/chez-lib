@@ -22,7 +22,7 @@
 
 ;; slib:eval replaced with eval - is this the same?
 
-(define-library
+(library
   (slib database-commands)
   (export wrap-command-interface
           add-command-tables

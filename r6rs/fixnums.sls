@@ -1,5 +1,5 @@
 #!chezscheme
-(define-library (r6rs fixnums)
+(library (r6rs fixnums)
 
   (export
 

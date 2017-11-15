@@ -20,7 +20,7 @@
 ;;> Note: For all procedures which take a key as an argument, the key
 ;;> must be hashable with the hamt hash function, and comparable with
 ;;> the hamt equivalence predicate.
-(define-library 
+(library 
   (pfds hash-array-mapped-trie)
   (export make-hamt
           hamt?

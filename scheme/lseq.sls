@@ -1,5 +1,5 @@
 #!chezscheme
-(define-library 
+(library 
   (scheme lseq)
   (import (scheme base))
   (import (scheme case-lambda))

@@ -14,7 +14,7 @@
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 ;; -- documentation in Scribble format
 
-(define-library 
+(library 
   (pfds fector)
   (export make-fector
           fector

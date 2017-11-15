@@ -35,7 +35,7 @@
 
 ;; No, 521 is not a typo.
 
-(define-library 
+(library 
   (weinholt elliptic-curve)
   (export make-elliptic-prime-curve elliptic-prime-curve?
           elliptic-curve-a

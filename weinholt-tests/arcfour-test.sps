@@ -22,7 +22,7 @@
 ;; Packaged for R7RS Scheme and SRFI 64 by Peter Lane, 2017
 
 (import (weinholt arcfour)
-        (srfi 64)
+        (surfage s64 testing)
         (scheme base))
 
 (define (arcfour pt key)

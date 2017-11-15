@@ -23,7 +23,7 @@
 
 ;; ARCFOUR encryption
 
-(define-library 
+(library 
   (weinholt arcfour)
   (export expand-arcfour-key arcfour!
           arcfour-discard!

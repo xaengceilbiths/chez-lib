@@ -22,7 +22,7 @@
 ;;
 ;; Note, append! is in srfi 1
 
-(define-library
+(library
   (slib rev2-procedures)
   (export substring-move-left!
           substring-move-right!

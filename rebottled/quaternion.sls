@@ -9,7 +9,7 @@
 ;;; notice is included in the copy.  This work is provided
 ;;; as is, with no warranty of any kind.
 
-(define-library
+(library
   (rebottled quaternion)
   (export ; note: renames standard procedures for numbers to handle quaternions as well
     (rename q-make-rectangular make-rectangular)

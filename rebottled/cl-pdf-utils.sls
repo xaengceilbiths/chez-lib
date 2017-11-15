@@ -47,7 +47,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (rebottled cl-pdf-utils)
   (export 
     *page-stream* ; this is a parameter object

@@ -1,7 +1,7 @@
 #!chezscheme
 (import (scheme base)
         (slib string-case)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "slib-string-case")
 

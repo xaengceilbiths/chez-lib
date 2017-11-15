@@ -2,7 +2,7 @@
 ;; Repackaged as (scheme generator)
 ;; Using (generators) version 1.0.2 from http://snow-fort.org/pkg
 
-(define-library 
+(library 
   (scheme generator)
   (export generator make-iota-generator make-range-generator 
           make-coroutine-generator list->generator vector->generator

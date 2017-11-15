@@ -32,7 +32,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (autodiff nondeterministic-constraints)
  (export set-nondeterministic-strategy! create-domain-variable
 	 binding nondeterministic-solution assert-nondeterministic-constraint!)

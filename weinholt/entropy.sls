@@ -32,7 +32,7 @@
 ;; TODO: Should probably not use srfi-27 but something that works the
 ;; same everywhere.
 
-(define-library 
+(library 
   (weinholt entropy)
   (export make-random-bytevector
           bytevector-randomize!

@@ -34,7 +34,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
  (nltk sequence)
  (export sequence->permutations-list
          sequence->permutations-vector

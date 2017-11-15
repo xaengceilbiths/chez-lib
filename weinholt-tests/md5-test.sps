@@ -23,7 +23,7 @@
         (scheme char)
         (weinholt bytevector)
         (weinholt md5)
-        (srfi 64)) 
+        (surfage s64 testing)) 
 
 (test-begin "weinholt-md5")
 

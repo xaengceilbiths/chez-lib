@@ -36,7 +36,7 @@
 
 (import (scheme base)
         (nltk sequence)
-        (srfi 64))
+        (surfage s64 testing))
 
 (test-begin "nltk-sequence")
 

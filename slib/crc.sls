@@ -20,7 +20,7 @@
 
 ;; Packaged for R7RS Scheme by Peter Lane, 2017
 
-(define-library
+(library
   (slib crc)
   (export crc-32-polynomial
           crc-ccitt-polynomial

@@ -32,7 +32,7 @@
 ;;Recommendation@*
 ;;@url{http://www.w3.org/TR/REC-xml-names}.
 
-(define-library
+(library
   (slib xml-parse)
   (export 
     attlist-add

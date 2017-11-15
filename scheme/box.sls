@@ -1,7 +1,7 @@
 #!chezscheme
 ;; Reference implementation for srfi 111
 
-(define-library 
+(library 
   (scheme box)
   (export box box? unbox set-box!)
   (import (scheme base))

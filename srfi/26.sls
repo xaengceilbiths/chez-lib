@@ -37,7 +37,7 @@
 ;     combination : procedure being specialized, followed by its arguments
 ;     se          : slots-or-exprs, the qualifiers of the macro
 
-(define-library
+(library
   (srfi 26)
   (export cut cute) 
   (import (scheme base))
